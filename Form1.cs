@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Win32;
 
@@ -56,11 +49,6 @@ namespace CondorMapMover
                 string map = subdirectory.Replace(mapPath, "");
                 listBox1.Items.Add(map);
             }
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void log(string text)
@@ -169,11 +157,6 @@ namespace CondorMapMover
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
             Process.Start(psi).WaitForExit();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

@@ -122,7 +122,6 @@
             this.label3.Size = new System.Drawing.Size(136, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "3. Which Maps?";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -173,7 +172,6 @@
             this.label6.Size = new System.Drawing.Size(28, 13);
             this.label6.TabIndex = 12;
             this.label6.Text = "v0.1";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -238,7 +236,10 @@
             this.Controls.Add(this.condorpathEl);
             this.Controls.Add(this.listBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Condor MapMover";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
