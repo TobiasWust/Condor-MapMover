@@ -180,5 +180,10 @@ namespace CondorMapMover
         {
             System.Diagnostics.Process.Start("http://www.tobiaswust.de");
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/TobiasWust/Condor-MapMover/");
+        }
     }
 }
